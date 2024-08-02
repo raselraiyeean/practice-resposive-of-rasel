@@ -1,0 +1,164 @@
+
+/* Common style start */
+.common-container {
+  width: 90%;
+  margin: 0 auto;
+}
+button {
+  background-color: #e02c6d;
+  color: #ffffff;
+}
+ button img {
+	width: 25px;
+	height: 20px;
+  
+}
+.common-description {
+	font-size: 1.1rem;
+	color: #535353;
+}
+/* Common style End */
+
+/* Header part style start */
+.three-line-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-line-bar img {
+	width: 48px;
+	height: 28px;
+  display: none;
+}
+.influencer-product h2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.menu-bar ul li {
+  color: menu-bar;
+}
+.three-line-bar {
+  grid-area: three-line-bar;
+}
+.page-name-and-menu-bar {
+  grid-area: page-name-and-menu-bar;
+}
+.hand-cart {
+  grid-area: hand-cart;
+}
+.header-section-1 {
+  display: grid;
+  gap:10px;
+  grid-template-areas: 
+  "three-line-bar page-name-and-menu-bar hand-cart"
+  ;
+}
+.page-name-and-menu-bar {
+	display: flex;
+	gap: 390px;
+	justify-content: center;
+	align-items: center;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.menu-bar ul img {
+  width: 20px;
+  height: 20px;
+}
+.hand-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hand-cart img {
+  width: 50px;
+  height: 50px;
+}
+.left-column {
+  grid-area: left-column;
+}
+.right-column {
+  grid-area: right-column;
+}
+.header-section-2 {
+	display: grid;
+	gap: 50px;
+	grid-template-areas: "left-column right-column";
+	margin-top: 30px;
+}
+.left-column {
+  display: flex;
+  align-items: center;
+}
+.left-column h1 {
+	font-weight: 800;
+	font-size: 3.5rem;
+	color: #3a3a3a;
+	margin: 5px;
+	line-height: 49px;
+}
+.left-column button {
+	padding: 15px 22px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+button img {
+	width: 35px;
+	height: 15px;
+}
+.right-column {
+  background-image: url(../images/Circle-design.png);
+  background-repeat: no-repeat;
+}
+.right-column img {
+	width: 480px;
+	height: 480px;
+}
+hr {
+	color: #e5eaf0;
+	margin: 60px 0;
+}
+.header-section-3 {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+}
+/* Header part style End */
+
+/* Style for main-section start */
+.product-heading {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.product-image-container {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.image-box-price {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	width: 335px;
+	height: 475px;
+	padding: 20px;
+	border-radius: 10px;
+}
+.see-more {
+	text-decoration: none;
+	text-align: right;
+	display: block;
+  color: #e44780;
+}
+
+/* Style for main-section end */
+  
+  
+  
+  
