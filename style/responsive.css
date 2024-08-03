@@ -1,0 +1,136 @@
+@media screen and (max-width: 576px) {
+    
+    .header-section-1 {
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .three-line-bar img {
+        display: block;
+        width: 55px;
+        height: 30px;
+    }
+    .hand-cart img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .menu-bar {
+        
+        display: none;
+    }
+
+    .three-line-bar img:hover .menu-bar {
+        display: block;
+        
+        
+    }
+
+    .influencer-product h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    
+    .right-column img {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        top: 19px;
+        left: 62px;
+    }
+    .right-column {
+        background-size: 75% 100%;
+        background-position: center;
+    }
+    button img {
+        width: 40px;
+        height: 23px;
+    }
+    .header-section-2 {
+        gap: 25px;
+        margin-top: 15px;
+        grid-template-areas: 
+        "right-column"
+        "left-column"; 
+    }
+    .left-column h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 55px;
+    }
+    .left-column {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .left-column button {
+        padding: 20px 40px;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .image-1 {
+        grid-area: image-1;
+    }
+    .image-2 {
+        grid-area: image-2;
+    }
+    .image-3 {
+        grid-area: image-3;
+    }
+    .image-4 {
+        grid-area: image-4;
+    }
+    .image-5 {
+        grid-area: image-5;
+    }
+    .image-6 {
+        grid-area: image-6;
+    }
+    .image-7 {
+        grid-area: image-7;
+    }
+    .header-section-3 {
+        display: grid;
+        gap: 25px;
+        grid-template-areas: "image-1 image-2 image-3 image-4" "image-5  image-6 image-7 image-7";
+        justify-content: center;
+        align-items: center;
+        margin-left: 72px;
+    }
+    .product-image-container {
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image-box-price {
+        width: 90%;
+        height: 585px;
+    }
+    .image-box-price img.product-image {
+        width: 100%;
+    }
+    .image-box-price h2, h4 {
+        margin: 10px;
+    }
+    .see-more {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .main-2section {
+        gap: 50px;
+        grid-template-areas: "image-description-2" "image-description-1";
+        justify-content: center;
+        align-items: center;
+    }
+    .image-description-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .image-description-1 img {
+        width: 100%;
+    }
+    .image-description-2 button {
+        font-size: 2.2rem;
+        padding: 15px 25px; 
+    }
+}

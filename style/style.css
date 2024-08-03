@@ -154,10 +154,44 @@ hr {
 	text-decoration: none;
 	text-align: right;
 	display: block;
-  color: #e44780;
+	color: #e44780;
+	margin: 55px 0;
+}
+.image-description-1 {
+  grid-area: image-description-1;
+}
+.image-description-2 {
+  grid-area: image-description-2;
+}
+
+.main-2section {
+	display: grid;
+	gap: 100px;
+	grid-template-areas: "image-description-1 image-description-2";
+}
+.image-description-2 button {
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 10px 15px;
+	border-style: none;
 }
 
 /* Style for main-section end */
+
+/* Style for footer part start */
+footer {
+	background: #0a0826;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px;
+	margin-top: 40px;
+}
+.footer-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+/* Style for footer part End */
   
   
   
