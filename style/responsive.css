@@ -134,3 +134,31 @@
         padding: 15px 25px; 
     }
 }
+@media screen and (max-width: 412px) {
+    .right-column {
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    .right-column img {
+        width: 300px;
+        height: 300px;
+        top: 14px;
+        left: 12px;
+    }
+    .header-section-3 {
+        display: grid;
+        gap: 25px;
+        grid-template-areas: "image-1 image-2 image-3" "image-4 image-5 image-6" "image-7 image-7 image-7";
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .image-box-price {
+        width: 90%;
+        height: 500px;
+    }
+    .common-container {
+        width: 98%;
+        margin: 0 auto;
+    }
+}
